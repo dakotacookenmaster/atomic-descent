@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url('/assets/fonts/Minecraft.ttf') format('truetype');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #1A1A1A;
+  flex-direction: column;
+  font-family: "Minecraft";
+  letter-spacing: 5px;
+}
+
+h1 {
+  color: white;
+}
+
+#appBlock {
+  width: 800px;
+  height: 600px;
+}
